@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.container {
+    background-color: #f1f3f7;
+    height: 65vh;
+    width: 45%;
+    position: relative;
+}
+
+.img {
+    background-image: url('https://content.twinkl.co.uk/website/uploaded/football-6-1674483025.jpg');
+    height: 367px;
+    background-repeat: no-repeat;
+}
+
+.content {
+    color: white;
+    padding-left: 24px;
+}
+
+.img button {
+    background-color: #000000;
+    color: white;
+    border: 1px solid white;
+    font-size: 150%;
+    padding: 12px;
+    margin: 24px;
+    border-radius: 4px;
+    margin-bottom: 150px;
+}
+
+.content .date {
+    color: #c2b3b3;
+    margin: 12px 0;
+}
+
+.content .heading {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 12px 0;
+}
+
+.content .paragraph {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 25px;
+    margin-right: 70px;
+}
+
+button {
+    margin: 0 5px;
+}
+
+.footer .button-1 {
+    background-color: #bab8b8;
+    width: 45px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.footer .ul .li-1 {
+    background-color: black;
+    color: white;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.footer .button-2 {
+    background-color: black;
+    color: white;
+    width: 45px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
